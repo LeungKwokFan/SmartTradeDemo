@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B58C1EC2BE0BFE000CCD830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B58C1EB2BE0BFE000CCD830 /* AppDelegate.swift */; };
+		7B58C1EE2BE0BFE000CCD830 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B58C1ED2BE0BFE000CCD830 /* SceneDelegate.swift */; };
+		7B58C1F02BE0BFE000CCD830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B58C1EF2BE0BFE000CCD830 /* ViewController.swift */; };
+		7B58C1F52BE0BFE100CCD830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B58C1F42BE0BFE100CCD830 /* Assets.xcassets */; };
+		7B58C1F82BE0BFE100CCD830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B58C1F62BE0BFE100CCD830 /* LaunchScreen.storyboard */; };
+		7B58C2032BE0BFE200CCD830 /* SmartTradeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B58C2022BE0BFE200CCD830 /* SmartTradeDemoTests.swift */; };
+		7B58C20D2BE0BFE200CCD830 /* SmartTradeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B58C20C2BE0BFE200CCD830 /* SmartTradeDemoUITests.swift */; };
+		7B58C20F2BE0BFE200CCD830 /* SmartTradeDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B58C20E2BE0BFE200CCD830 /* SmartTradeDemoUITestsLaunchTests.swift */; };
+		7B58C21C2BE0C05300CCD830 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B58C21B2BE0C05300CCD830 /* SignUpViewController.swift */; };
+		7B58C21E2BE0C06E00CCD830 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B58C21D2BE0C06E00CCD830 /* LoginViewController.swift */; };
+		7B58C2202BE0C08700CCD830 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B58C21F2BE0C08700CCD830 /* HomeViewController.swift */; };
+		7B58C2232BE0CD4700CCD830 /* Helpers in Resources */ = {isa = PBXBuildFile; fileRef = 7B58C2222BE0CD4700CCD830 /* Helpers */; };
+		7BB034602BE0CEA6002DEF1C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB0345F2BE0CEA6002DEF1C /* Utilities.swift */; };
+		7BB034632BE0D1C4002DEF1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB034612BE0D1C4002DEF1C /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B58C1FF2BE0BFE200CCD830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B58C1E02BE0BFE000CCD830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B58C1E72BE0BFE000CCD830;
+			remoteInfo = SmartTradeDemo;
+		};
+		7B58C2092BE0BFE200CCD830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B58C1E02BE0BFE000CCD830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B58C1E72BE0BFE000CCD830;
+			remoteInfo = SmartTradeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B58C1E82BE0BFE000CCD830 /* SmartTradeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTradeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B58C1EB2BE0BFE000CCD830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B58C1ED2BE0BFE000CCD830 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7B58C1EF2BE0BFE000CCD830 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B58C1F42BE0BFE100CCD830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B58C1F72BE0BFE100CCD830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B58C1F92BE0BFE100CCD830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B58C1FE2BE0BFE200CCD830 /* SmartTradeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartTradeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B58C2022BE0BFE200CCD830 /* SmartTradeDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartTradeDemoTests.swift; sourceTree = "<group>"; };
+		7B58C2082BE0BFE200CCD830 /* SmartTradeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartTradeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B58C20C2BE0BFE200CCD830 /* SmartTradeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartTradeDemoUITests.swift; sourceTree = "<group>"; };
+		7B58C20E2BE0BFE200CCD830 /* SmartTradeDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartTradeDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B58C21B2BE0C05300CCD830 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7B58C21D2BE0C06E00CCD830 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7B58C21F2BE0C08700CCD830 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7B58C2222BE0CD4700CCD830 /* Helpers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Helpers; sourceTree = "<group>"; };
+		7BB0345F2BE0CEA6002DEF1C /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		7BB034622BE0D1C4002DEF1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SmartTradeDemo/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B58C1E52BE0BFE000CCD830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B58C1FB2BE0BFE200CCD830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B58C2052BE0BFE200CCD830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B58C1DF2BE0BFE000CCD830 = {
+			isa = PBXGroup;
+			children = (
+				7BB034612BE0D1C4002DEF1C /* Main.storyboard */,
+				7B58C1EA2BE0BFE000CCD830 /* SmartTradeDemo */,
+				7B58C2012BE0BFE200CCD830 /* SmartTradeDemoTests */,
+				7B58C20B2BE0BFE200CCD830 /* SmartTradeDemoUITests */,
+				7B58C1E92BE0BFE000CCD830 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B58C1E92BE0BFE000CCD830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B58C1E82BE0BFE000CCD830 /* SmartTradeDemo.app */,
+				7B58C1FE2BE0BFE200CCD830 /* SmartTradeDemoTests.xctest */,
+				7B58C2082BE0BFE200CCD830 /* SmartTradeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B58C1EA2BE0BFE000CCD830 /* SmartTradeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7B58C2222BE0CD4700CCD830 /* Helpers */,
+				7B58C2212BE0C0AB00CCD830 /* ViewController */,
+				7B58C1EB2BE0BFE000CCD830 /* AppDelegate.swift */,
+				7B58C1EF2BE0BFE000CCD830 /* ViewController.swift */,
+				7B58C1ED2BE0BFE000CCD830 /* SceneDelegate.swift */,
+				7B58C1F42BE0BFE100CCD830 /* Assets.xcassets */,
+				7B58C1F62BE0BFE100CCD830 /* LaunchScreen.storyboard */,
+				7B58C1F92BE0BFE100CCD830 /* Info.plist */,
+			);
+			path = SmartTradeDemo;
+			sourceTree = "<group>";
+		};
+		7B58C2012BE0BFE200CCD830 /* SmartTradeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B58C2022BE0BFE200CCD830 /* SmartTradeDemoTests.swift */,
+			);
+			path = SmartTradeDemoTests;
+			sourceTree = "<group>";
+		};
+		7B58C20B2BE0BFE200CCD830 /* SmartTradeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B58C20C2BE0BFE200CCD830 /* SmartTradeDemoUITests.swift */,
+				7B58C20E2BE0BFE200CCD830 /* SmartTradeDemoUITestsLaunchTests.swift */,
+			);
+			path = SmartTradeDemoUITests;
+			sourceTree = "<group>";
+		};
+		7B58C2212BE0C0AB00CCD830 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7BB0345F2BE0CEA6002DEF1C /* Utilities.swift */,
+				7B58C21F2BE0C08700CCD830 /* HomeViewController.swift */,
+				7B58C21D2BE0C06E00CCD830 /* LoginViewController.swift */,
+				7B58C21B2BE0C05300CCD830 /* SignUpViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B58C1E72BE0BFE000CCD830 /* SmartTradeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B58C2122BE0BFE200CCD830 /* Build configuration list for PBXNativeTarget "SmartTradeDemo" */;
+			buildPhases = (
+				7B58C1E42BE0BFE000CCD830 /* Sources */,
+				7B58C1E52BE0BFE000CCD830 /* Frameworks */,
+				7B58C1E62BE0BFE000CCD830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartTradeDemo;
+			productName = SmartTradeDemo;
+			productReference = 7B58C1E82BE0BFE000CCD830 /* SmartTradeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B58C1FD2BE0BFE200CCD830 /* SmartTradeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B58C2152BE0BFE200CCD830 /* Build configuration list for PBXNativeTarget "SmartTradeDemoTests" */;
+			buildPhases = (
+				7B58C1FA2BE0BFE200CCD830 /* Sources */,
+				7B58C1FB2BE0BFE200CCD830 /* Frameworks */,
+				7B58C1FC2BE0BFE200CCD830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B58C2002BE0BFE200CCD830 /* PBXTargetDependency */,
+			);
+			name = SmartTradeDemoTests;
+			productName = SmartTradeDemoTests;
+			productReference = 7B58C1FE2BE0BFE200CCD830 /* SmartTradeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B58C2072BE0BFE200CCD830 /* SmartTradeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B58C2182BE0BFE200CCD830 /* Build configuration list for PBXNativeTarget "SmartTradeDemoUITests" */;
+			buildPhases = (
+				7B58C2042BE0BFE200CCD830 /* Sources */,
+				7B58C2052BE0BFE200CCD830 /* Frameworks */,
+				7B58C2062BE0BFE200CCD830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B58C20A2BE0BFE200CCD830 /* PBXTargetDependency */,
+			);
+			name = SmartTradeDemoUITests;
+			productName = SmartTradeDemoUITests;
+			productReference = 7B58C2082BE0BFE200CCD830 /* SmartTradeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B58C1E02BE0BFE000CCD830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7B58C1E72BE0BFE000CCD830 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7B58C1FD2BE0BFE200CCD830 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7B58C1E72BE0BFE000CCD830;
+					};
+					7B58C2072BE0BFE200CCD830 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7B58C1E72BE0BFE000CCD830;
+					};
+				};
+			};
+			buildConfigurationList = 7B58C1E32BE0BFE000CCD830 /* Build configuration list for PBXProject "SmartTradeDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B58C1DF2BE0BFE000CCD830;
+			productRefGroup = 7B58C1E92BE0BFE000CCD830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B58C1E72BE0BFE000CCD830 /* SmartTradeDemo */,
+				7B58C1FD2BE0BFE200CCD830 /* SmartTradeDemoTests */,
+				7B58C2072BE0BFE200CCD830 /* SmartTradeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B58C1E62BE0BFE000CCD830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B58C1F82BE0BFE100CCD830 /* LaunchScreen.storyboard in Resources */,
+				7B58C1F52BE0BFE100CCD830 /* Assets.xcassets in Resources */,
+				7B58C2232BE0CD4700CCD830 /* Helpers in Resources */,
+				7BB034632BE0D1C4002DEF1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B58C1FC2BE0BFE200CCD830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B58C2062BE0BFE200CCD830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B58C1E42BE0BFE000CCD830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B58C1F02BE0BFE000CCD830 /* ViewController.swift in Sources */,
+				7B58C1EC2BE0BFE000CCD830 /* AppDelegate.swift in Sources */,
+				7BB034602BE0CEA6002DEF1C /* Utilities.swift in Sources */,
+				7B58C21C2BE0C05300CCD830 /* SignUpViewController.swift in Sources */,
+				7B58C21E2BE0C06E00CCD830 /* LoginViewController.swift in Sources */,
+				7B58C1EE2BE0BFE000CCD830 /* SceneDelegate.swift in Sources */,
+				7B58C2202BE0C08700CCD830 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B58C1FA2BE0BFE200CCD830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B58C2032BE0BFE200CCD830 /* SmartTradeDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B58C2042BE0BFE200CCD830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B58C20F2BE0BFE200CCD830 /* SmartTradeDemoUITestsLaunchTests.swift in Sources */,
+				7B58C20D2BE0BFE200CCD830 /* SmartTradeDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B58C2002BE0BFE200CCD830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B58C1E72BE0BFE000CCD830 /* SmartTradeDemo */;
+			targetProxy = 7B58C1FF2BE0BFE200CCD830 /* PBXContainerItemProxy */;
+		};
+		7B58C20A2BE0BFE200CCD830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B58C1E72BE0BFE000CCD830 /* SmartTradeDemo */;
+			targetProxy = 7B58C2092BE0BFE200CCD830 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B58C1F62BE0BFE100CCD830 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B58C1F72BE0BFE100CCD830 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7BB034612BE0D1C4002DEF1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB034622BE0D1C4002DEF1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B58C2102BE0BFE200CCD830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B58C2112BE0BFE200CCD830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B58C2132BE0BFE200CCD830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartTradeDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmartTrade.SmartTradeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B58C2142BE0BFE200CCD830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartTradeDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmartTrade.SmartTradeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B58C2162BE0BFE200CCD830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmartTrade.SmartTradeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartTradeDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartTradeDemo";
+			};
+			name = Debug;
+		};
+		7B58C2172BE0BFE200CCD830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmartTrade.SmartTradeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartTradeDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartTradeDemo";
+			};
+			name = Release;
+		};
+		7B58C2192BE0BFE200CCD830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmartTrade.SmartTradeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartTradeDemo;
+			};
+			name = Debug;
+		};
+		7B58C21A2BE0BFE200CCD830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmartTrade.SmartTradeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartTradeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B58C1E32BE0BFE000CCD830 /* Build configuration list for PBXProject "SmartTradeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B58C2102BE0BFE200CCD830 /* Debug */,
+				7B58C2112BE0BFE200CCD830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B58C2122BE0BFE200CCD830 /* Build configuration list for PBXNativeTarget "SmartTradeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B58C2132BE0BFE200CCD830 /* Debug */,
+				7B58C2142BE0BFE200CCD830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B58C2152BE0BFE200CCD830 /* Build configuration list for PBXNativeTarget "SmartTradeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B58C2162BE0BFE200CCD830 /* Debug */,
+				7B58C2172BE0BFE200CCD830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B58C2182BE0BFE200CCD830 /* Build configuration list for PBXNativeTarget "SmartTradeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B58C2192BE0BFE200CCD830 /* Debug */,
+				7B58C21A2BE0BFE200CCD830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B58C1E02BE0BFE000CCD830 /* Project object */;
+}
