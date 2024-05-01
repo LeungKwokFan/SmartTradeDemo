@@ -15,6 +15,7 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var loginButton: UIButton!
     
+    @IBOutlet weak var reutrnButton: UIButton!
     @IBOutlet weak var warningLabel: UILabel!
     
 
@@ -37,6 +38,8 @@ class LoginViewController: UIViewController {
         Utilities.styleTextField(passwordTextField)
         
         Utilities.styleFilledButton(loginButton)
+        
+        Utilities.styleHollowButton(reutrnButton)
         
         
         

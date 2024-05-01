@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SignUpViewController: UIViewController {
     
@@ -21,6 +22,7 @@ class SignUpViewController: UIViewController {
     
     @IBOutlet weak var warningLabel: UILabel!
     
+    @IBOutlet weak var returnButton: UIButton!
     
     
     override func viewDidLoad() {
@@ -46,6 +48,8 @@ class SignUpViewController: UIViewController {
         
         Utilities.styleFilledButton(signUpButton)
         
+        Utilities.styleHollowButton(returnButton)
+        
         
         
     }
@@ -62,9 +66,50 @@ class SignUpViewController: UIViewController {
     */
     
     
+    func checkTextField() -> String?{
+        
+        if firstNameTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines)=="" ||
+            lastNameTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines)=="" ||
+            emailTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines)=="" ||
+            passwordTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines)==""
+        {
+            return "All the fields should be filled!"
+            
+        }
+        
+        
+        
+        return nil
+            
+    }
     
+    func showWarning(_ message: String){
+        warningLabel.text = message
+        warningLabel.alpha = 1
+    }
     
     @IBAction func signUpTapped(_ sender: Any) {
+        
+        let warning = checkTextField()
+        
+        if warning != nil{
+            showWarning(warning!)
+            
+        }
+        else{
+
+            guard let email = emailTextField.text else {return}
+            guard let password = passwordTextField.text else {return}
+            
+            Auth.auth().createUser(withEmail: email, password: password){(Result,err) in
+                if err != nil{
+                    self.showWarning("Error in creating user.")
+                }
+                else{
+                    self.showWarning("OKay now!")
+                }}
+        }
+        
     }
     
 }
