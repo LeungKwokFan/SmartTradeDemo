@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class LoginViewController: UIViewController {
     
@@ -53,5 +54,52 @@ class LoginViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    
+    func checkTextField() -> String?{
+        
+        if
+            emailTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines)=="" ||
+            passwordTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines)==""
+        {
+            return "All the fields should be filled!"
+            
+        }
+        
+        
+        
+        return nil
+            
+    }
+    
+    func showWarning(_ message: String){
+        warningLabel.text = message
+        warningLabel.alpha = 1
+    }
+    
+    @IBAction func loginButtonTapped(_ sender: Any) {
+        
+        let warning = checkTextField()
+        
+        if warning != nil{
+            showWarning(warning!)
+            
+        }
+        else{
+
+            guard let email = emailTextField.text else {return}
+            guard let password = passwordTextField.text else {return}
+            
+            Auth.auth().signIn(withEmail: email, password: password){(Result,err) in
+                if err == nil{
+                    self.performSegue(withIdentifier: "jumpToHome", sender: self)
+                }
+                else{
+                    self.showWarning("Error when login.")
+
+                }}
+        }
+    }
+    
 
 }

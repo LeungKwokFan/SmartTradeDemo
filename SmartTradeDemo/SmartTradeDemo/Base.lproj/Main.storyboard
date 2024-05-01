@@ -234,7 +234,7 @@
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Login"/>
                                         <connections>
-                                            <segue destination="7yd-cr-RnW" kind="show" id="CLr-nf-NQc"/>
+                                            <action selector="loginButtonTapped:" destination="cuv-BN-jBI" eventType="touchUpInside" id="0HJ-bj-5md"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="viY-0n-BQV">
@@ -277,6 +277,7 @@
                         <outlet property="passwordTextField" destination="yfq-sf-Pl3" id="fRm-E0-Wj6"/>
                         <outlet property="reutrnButton" destination="viY-0n-BQV" id="tx4-YB-FVt"/>
                         <outlet property="warningLabel" destination="QTC-tx-Zh7" id="NVE-0c-OiO"/>
+                        <segue destination="7yd-cr-RnW" kind="show" identifier="jumpToHome" id="1Wn-FI-c6F"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pvu-6L-gSu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -302,8 +303,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="FJy-fo-OUd"/>
-        <segue reference="A7D-mY-1wj"/>
+        <segue reference="cah-Ou-gmz"/>
     </inferredMetricsTieBreakers>
     <resources>
         <namedColor name="AccentColor">
