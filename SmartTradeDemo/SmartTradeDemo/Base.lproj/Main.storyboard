@@ -18,11 +18,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="XJM-dN-N0F">
-                                <rect key="frame" x="40" y="682" width="313" height="120"/>
+                                <rect key="frame" x="40" y="662" width="313" height="140"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQC-KI-6TJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="313" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="313" height="60"/>
                                         <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="dIH-X8-wo8"/>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="drY-Md-Ab4"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
@@ -32,7 +33,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjV-IQ-XPh">
-                                        <rect key="frame" x="0.0" y="70" width="313" height="50"/>
+                                        <rect key="frame" x="0.0" y="80" width="313" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="ggg-lf-MSS"/>
                                         </constraints>
@@ -44,6 +45,7 @@
                                     </button>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="gjV-IQ-XPh" firstAttribute="height" secondItem="LQC-KI-6TJ" secondAttribute="height" id="3pL-pF-stD"/>
                                     <constraint firstItem="gjV-IQ-XPh" firstAttribute="width" secondItem="LQC-KI-6TJ" secondAttribute="width" id="DFB-Nz-R1k"/>
                                 </constraints>
                             </stackView>
@@ -303,6 +305,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="qPt-6t-OZR"/>
         <segue reference="cah-Ou-gmz"/>
     </inferredMetricsTieBreakers>
     <resources>

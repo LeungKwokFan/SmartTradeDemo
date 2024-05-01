@@ -25,6 +25,7 @@
 		7BFFB7CC2BE11D4F00F6EE2A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7BFFB7CB2BE11D4F00F6EE2A /* FirebaseAuth */; };
 		7BFFB7CE2BE11D4F00F6EE2A /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7BFFB7CD2BE11D4F00F6EE2A /* FirebaseAuthCombine-Community */; };
 		7BFFB7D02BE11D4F00F6EE2A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7BFFB7CF2BE11D4F00F6EE2A /* FirebaseStorage */; };
+		7BFFB7D32BE2194B00F6EE2A /* joey.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7BFFB7D22BE2194B00F6EE2A /* joey.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		7BB0345F2BE0CEA6002DEF1C /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		7BB034622BE0D1C4002DEF1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SmartTradeDemo/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BFFB7C82BE11BA000F6EE2A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7BFFB7D22BE2194B00F6EE2A /* joey.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = joey.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		7B58C1DF2BE0BFE000CCD830 = {
 			isa = PBXGroup;
 			children = (
+				7BFFB7D12BE2193700F6EE2A /* file */,
 				7BB034612BE0D1C4002DEF1C /* Main.storyboard */,
 				7B58C1EA2BE0BFE000CCD830 /* SmartTradeDemo */,
 				7B58C2012BE0BFE200CCD830 /* SmartTradeDemoTests */,
@@ -157,6 +160,14 @@
 				7B58C21B2BE0C05300CCD830 /* SignUpViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7BFFB7D12BE2193700F6EE2A /* file */ = {
+			isa = PBXGroup;
+			children = (
+				7BFFB7D22BE2194B00F6EE2A /* joey.mp4 */,
+			);
+			path = file;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +286,7 @@
 				7B58C1F52BE0BFE100CCD830 /* Assets.xcassets in Resources */,
 				7BFFB7C92BE11BA000F6EE2A /* GoogleService-Info.plist in Resources */,
 				7B58C2232BE0CD4700CCD830 /* Helpers in Resources */,
+				7BFFB7D32BE2194B00F6EE2A /* joey.mp4 in Resources */,
 				7BB034632BE0D1C4002DEF1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
